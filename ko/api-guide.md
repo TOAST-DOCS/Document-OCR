@@ -18,8 +18,14 @@
 
 ```
 curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business' \
---data-binary '@sample.png' 
+-F 'file=@sample.png' 
 ```
+
+[필드]
+
+| 이름 | 타입 | 설명 |
+|---|---|---|
+| file | multipart/form–data | 이미지 파일 |
 
 #### 응답
 
