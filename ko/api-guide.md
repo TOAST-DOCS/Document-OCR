@@ -19,7 +19,7 @@
 ```
 curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business' \
 -F 'file=@sample.png' 
--H 'X-Secret-Key: ${secretKey}'
+-H 'Authorization: ${secretKey}'
 ```
 
 [필드]
