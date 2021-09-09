@@ -1,7 +1,6 @@
 ## AI Service > Document OCR > API 가이드
 
 ### 사업자등록증 분석 API
-- .pdf, .jpeg, .png 형식의 사업자등록증 이미지 분석 기능을 지원합니다. (최대 용량: 5MB)
 
 #### 요청
 
