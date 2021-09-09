@@ -24,7 +24,7 @@
 
 ```
 curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business' \
--F 'file=@sample.png' 
+-F 'image=@sample.png' 
 -H 'Authorization: ${secretKey}'
 ```
 
@@ -32,7 +32,7 @@ curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/busi
 
 | 이름 | 타입 | 설명 |
 |---|---|---|
-| file | multipart/form–data | 이미지 파일 |
+| image | multipart/form–data | 이미지 파일 |
 
 #### 응답
 
@@ -98,14 +98,15 @@ curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/busi
 | resultMessage | String | 분석 결과 (성공시 success, 실패시 오류 내용) |
 | fileType | String | 파일 확장자 (pdf, jpg, png) |
 | keyValues | List | 인식 결과 목록 |
-| keyValues.key | String | 인식 항목명 |
-| keyValues.value | String | 인식 내용 |
-| keyValues.conf | Double | 인식 결과 신뢰도 |
+| keyValues[0].key | String | 인식 항목명 |
+| keyValues[0].value | String | 인식 내용 |
+| keyValues[0].conf | Double | 인식 결과 신뢰도 |
 | resolution | String | 권장 해상도(HD 1280*720px) 이상이면 normal, 권장 해상도 미만은 low |
 | unitType | String | boxes 좌표 단위 (기본 pixel, PDF의 경우 point) |
-| boxes | List | 인식 영역 좌표 {x1, y1, x2, y2, x3, y3, x4, y4} |
+| boxes | List | 인식 영역(Bounding box) 목록 |
+| boxes[0] | Object  | { x1, y1, x2, y2, x3, y3, x4, y4 } |
 
-* boxes
+* boxes[]
  
     ![bbox](http://static.toastoven.net/prod_document_ocr/bbox.png)
 
