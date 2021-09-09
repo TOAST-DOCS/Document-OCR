@@ -12,7 +12,7 @@
 
 [요청 본문]
 
-- {appKey}와 {secretKey}는 콘솔 상단 "URL & Appkey" 메뉴에서 확인이 가능합니다.
+- {appKey}와 {secretKey}는 콘솔 상단 [URL & Appkey] 메뉴에서 확인이 가능합니다.
 - 이미지 파일의 Binary Data를 넣습니다.
 
 ```
