@@ -31,9 +31,7 @@
     * [resolution] 권장 해상도(HD 1280*720px) 이상이면 normal, 권장 해상도 미만은 low
     * [unitType] boxes 좌표 단위 (기본 pixel, PDF의 경우 point)
     * [boxes] 인식 영역에 대한 이미지 상의 좌표값 (box 별 {x1, y1, x2, y2, x3, y3, x4, y4} 형태)
-    
-        ![bbox](http://static.toastoven.net/prod_document_ocr/bbox.png)
-        
+![bbox](http://static.toastoven.net/prod_document_ocr/bbox.png)
     * [JSON Sample]
     ```
     {
