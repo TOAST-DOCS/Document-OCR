@@ -86,8 +86,8 @@ curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/busi
 | keyValues.key | String | 인식 항목명 |
 | keyValues.value | String | 인식 내용 |
 | keyValues.conf | double | 인식 결과 신뢰도 |
-| unitType | String | boxes 좌표 단위 (기본 pixel, PDF의 경우 point) |
 | resolution | String | 권장 해상도(HD 1280*720px) 이상이면 normal, 권장 해상도 미만은 low |
+| unitType | String | boxes 좌표 단위 (기본 pixel, PDF의 경우 point) |
 | boxes | List | 인식 영역 좌표 {x1, y1, x2, y2, x3, y3, x4, y4} |
 
 * boxes
