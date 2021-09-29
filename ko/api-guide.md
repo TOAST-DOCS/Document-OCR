@@ -10,7 +10,7 @@
 
 | 메서드 | URI |
 |---|---|
-| POST | https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business |
+| POST | https://ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business |
 
 [요청 헤더]
 
@@ -23,7 +23,7 @@
 - 이미지 파일의 Binary Data를 넣습니다.
 
 ```
-curl -X POST 'https://kr1-ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business' \
+curl -X POST 'https://ocr.api.nhncloudservice.com/v1.0/appkeys/{appKey}/business' \
 -F 'image=@sample.png' 
 -H 'Authorization: ${secretKey}'
 ```
