@@ -13,8 +13,6 @@ Document OCR은 NHN Cloud의 OCR(광학 문자 인식) 기술을 통해 사업�
 
 * **분석 결과 다운로드**
 	* 사업자등록증 파일에서 추출한 결과를 Excel 및 JSON 파일로 다운로드할 수 있습니다.
-	
-![Sample](http://static.toastoven.net/prod_document_ocr/business_sample.png)
 
 ## 입력 이미지 가이드
     
