@@ -16,7 +16,7 @@ Document OCR은 NHN Cloud의 OCR(광학 문자 인식) 기술을 통해 사업�
 	
 ![Sample](http://static.toastoven.net/prod_document_ocr/business_sample.png)
 
-### 입력 이미지 가이드
+## 입력 이미지 가이드
     
 * .pdf, .jpeg, .png 형식의 사업자등록증 이미지 분석 기능을 지원합니다. 
     * 최대 용량: 5MB
