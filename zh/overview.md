@@ -36,11 +36,11 @@ Document OCR은 NHN Cloud의 OCR(광학 문자 인식) 기술을 통해 사업�
     - Consignee: NHN 
     - Consignment Description: Providing Document OCR service
     
-## 기술적/관리적 수준에 대한 합의서
-* 고객은 Document OCR 서비스를 이용하는 과정에서 수집/이용하는 정보의 민감성을 고려하여 기술적, 관리적 보호조치를 충실히 이행하여야 합니다.
-* 고객은 Document OCR 서비스를 통하여 인식된 정보를 전달받기 위하여 Document OCR 서비스 이용 개시전 통신구간 암호화를 완료하여야 합니다.
-* 고객은 Document OCR 서비스에 인식 요청을 하는 원본 데이터는 안전한 장소에 저장되어야 하며, 외부 노출가능한 URL을 통해 접근 불가 해야 합니다.
-* 고객은 Document OCR 서비스에서 안전한 인식결과 데이터를 제공하기 위해서 권장하는 전송방식(전용선, IPSecVPN 등)을 채택해야 합니다.
-* 고객은 Document OCR 서비스를 통하여 인식된 정보를 저장/보관/관리하는 데 있어서 개인정보 보호법 등 관련 법령을 준수하여야 합니다.
-* 회사는 고객이 위에서 정한 기술적, 관리적 조치를 모두 갖추고 있는지 확인이 필요한 경우 고객에게 증빙을 요청할 수 있습니다.
-* 위와 같은 사항은 Document OCR 서비스를 통하여 고객이 수집/이용하는 정보가 중요한 정보에 해당하기에 고객에게 요청하는 사항이며, 고객은 위 사항의 이행을 보증하고 위반으로 인하여 발생하는 정보주체, 규제기관 등에 대한 모든 책임을 부담하는 것을 확인합니다.
+## Agreement on technical/administrative level
+* The customer must fully implement technical and administrative protection measures considering the sensitive nature of information collected/used while using the Document OCR service.
+* To receive the information recognized by the Document OCR service, the customer must complete the encryption of the communication section before starting to use the Document OCR service.
+* The original data that the customer requests for recognition to the Document OCR service must be stored in a secure location and must not be accessible through a URL that can be exposed externally.
+* The customer must adopt the recommended transmission method (dedicated line, IPSecVPN, etc.) to provide secure recognition result data from the Document OCR service.
+* The customer must comply with relevant laws such as the Personal Information Protection Act when storing/keeping/managing information recognized by the Document OCR service.
+* The company may request evidence from the customer if it is necessary to verify that the customer prepared all of the technical and administrative measures set out above.
+* The items above are requested for the customer because the information collected/used by the customer through the Document OCR service is important information. The customer guarantees the fulfillment of the above and confirms that he/she bears all responsibilities for the data subject and regulatory body arising from the violation.
