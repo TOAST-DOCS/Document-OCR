@@ -1,4 +1,4 @@
-## AI Service > Document OCR > 콘솔 사용 가이드
+## AI Service > Document Recognizer > 콘솔 사용 가이드
 
 콘솔을 통해 사업자등록증 파일을 올리고 분석 결과를 얻을 수 있습니다. 
 

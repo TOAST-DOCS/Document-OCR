@@ -1,4 +1,4 @@
-## AI Service > Document OCR > API 가이드
+## AI Service > Document Recognizer > API 가이드
 
 ### 사업자등록증 분석 API
 
